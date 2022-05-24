@@ -1,0 +1,40 @@
+body {
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.navbar-brand {
+    color: navy;
+}
+.bg-light, element.style {
+    background-color: #0d6efd!important;
+}
+
+.btn-outline-success {
+    --bs-btn-color: white;
+    --bs-btn-border-color: white;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.card-body {
+    background: rgb(36, 22, 0);
+    background: linear-gradient(90deg, rgba(36, 22, 0, 1) 0%, rgba(121, 63, 9, 1) 36%, rgba(255, 170, 0, 1) 100%);
+    color: white;
+}
+
+a.btn.btn-primary.btn-lg {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link.disabled {
+    color: white;
+}
